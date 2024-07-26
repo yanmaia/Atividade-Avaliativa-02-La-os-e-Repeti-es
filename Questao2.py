@@ -7,10 +7,10 @@ resto= n1%n2
 if (n1 or n2) <= 0:
     sys.exit('informe um numero inteiro e positivo')
 elif n1 == n2:
-    sys.exit(f'O mdc e {n1}')
+    sys.exit(f'Os {n1} e {n2} possuem o mdc {n1}')
     
 while resto != 0:
     dividendo=divisor
     divisor=resto
     resto= dividendo%divisor
-print(f"o mdc dos numeros {n1} e {n2} são {divisor}")
+print(f"Os numeros {n1} e {n2}  possuem o mdc {divisor}")
