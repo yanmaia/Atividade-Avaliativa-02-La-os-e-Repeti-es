@@ -13,4 +13,4 @@ while resto != 0:
     dividendo=divisor
     divisor=resto
     resto= dividendo%divisor
-print(divisor)
+print(f"o mdc dos numeros {n1} e {n2} são {divisor}")
