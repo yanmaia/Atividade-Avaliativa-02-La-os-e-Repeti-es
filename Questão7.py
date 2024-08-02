@@ -19,12 +19,7 @@ for i in range (2,vquantidade+1):
     print(f'o valor da PA({i})={valorpa:,} + {razaopa} = {valorpa+razaopa}')
     valorpa=vinicial+(i-1)*razaopa
     soma+=valorpa
-    #lista+= str(valorpa2)
-    
-
 print(f'A soma dos valores dessa PA são: {soma:,} ')
-
-#num=int(input('informe um outro valor inteiro que corresponde  a enezima posição dessa PG: '))
- #   sys.exit('Informe uma quantidade de elementos positivos da PG')           
-#termoene= vinicial *(razaopg**(num-1))      #Calcula o valor de uma PG em uma enezima posição
-#print(f'o valor da enezima posição  {num} e {termoene:,}')
+num=int(input('informe um outro valor inteiro que corresponde  a enezima posição dessa PA: '))            
+termoene= vinicial +(num-1)*razaopa      #Calcula o valor de uma Pa em uma enezima posição
+print(f'o valor da enezima posição  {num} e {termoene:,}')
