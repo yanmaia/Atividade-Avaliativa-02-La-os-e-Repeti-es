@@ -25,4 +25,4 @@ num=int(input('informe um outro valor inteiro que corresponde  a enezima posiç�
 if num < 0:                       #Verifica se e positivo
     sys.exit('Informe uma quantidade de elementos positivos da PG')           
 termoene= vinicial *(razaopg**(num-1))      #Calcula o valor de uma PG em uma enezima posição
-print(f'o valor da enezima posição  {num} e {termoene:,}')
+print(f'o valor da enezima posição  {num} Da pg acima e {termoene:,}')
