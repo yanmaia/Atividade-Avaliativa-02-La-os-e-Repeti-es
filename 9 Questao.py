@@ -12,6 +12,6 @@ else:
     for i in nums:
         soma+=  int(i)** contadortam     #Faz o calculo de potenciação para checagem do armstrong
 if int(nums) == soma:                              #checagem do numero
-    print('E um número Armstrong')
+    print(f"{'-'*10}E um número Armstrong{'-'*10}")
 else: 
-    print('Não e um número Armstrong') 
+    print(f"{'-'*10}Não e um número Armstrong{'-'*10}") 
